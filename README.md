@@ -192,7 +192,7 @@ Synthesis
        ▼
 FPGA Implementation
 
-Author
+**Author**
 
 Harshit Prajesh
 
@@ -210,13 +210,4 @@ Hardware Acceleration
 Edge AI
 
 
-### One recommendation before you publish it
 
-For the GitHub version, I'd use this repository name:
-
-**`ecg-cnn-lstm-classification`**
-
-And your first commit can be:
-
-```text
-Initial commit: ECG CNN-LSTM 5-class classification

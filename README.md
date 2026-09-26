@@ -111,3 +111,112 @@ Softmax
    │
    ▼
 N / S / V / F / Q
+
+Data Preprocessing
+MIT-BIH ECG data
+       │
+       ▼
+Train / Validation split
+       │
+       ▼
+StandardScaler
+       │
+       ▼
+Reshape to (187, 1)
+       │
+       ▼
+CNN-LSTM model
+
+Training Strategy
+
+Two experiments were evaluated:
+
+Experiment 1 — Class-Weighted Training
+
+Class weights were applied to compensate for the strong class imbalance.
+
+Results:
+
+Test Accuracy : 90.19%
+Macro F1      : 0.7221
+Weighted F1   : 0.9205
+Test Loss     : 0.2734
+
+The class-weighted model increased recall for minority classes but produced many false positives for the Normal class.
+
+Experiment 2 — Without Class Weights
+
+The same architecture and dataset split were used without applying class weights.
+
+Final test results:
+
+Test Accuracy : 97.40%
+Macro F1      : 0.8787
+Weighted F1   : 0.9729
+Test Loss     : 0.0987
+
+The second experiment is used as the current baseline model.
+
+Final Test Results
+Overall Performance
+Metric	Result
+Test Accuracy	97.40%
+Macro F1	87.87%
+Weighted F1	97.29%
+Test Loss	0.098
+
+Future Work
+CNN-LSTM Training
+       │
+       ▼
+Model Analysis
+       │
+       ▼
+Quantization
+       │
+       ▼
+Fixed-Point Representation
+       │
+       ▼
+Weight / Activation Optimization
+       │
+       ▼
+Verilog RTL
+       │
+       ▼
+Simulation
+       │
+       ▼
+Synthesis
+       │
+       ▼
+FPGA Implementation
+
+Author
+
+Harshit Prajesh
+
+B.Tech — Electronics and Communication Engineering
+IIIT Bhopal
+
+Interests:
+
+RTL Design
+ASIC Design
+VLSI
+FPGA
+Functional Verification
+Hardware Acceleration
+Edge AI
+
+
+### One recommendation before you publish it
+
+For the GitHub version, I'd use this repository name:
+
+**`ecg-cnn-lstm-classification`**
+
+And your first commit can be:
+
+```text
+Initial commit: ECG CNN-LSTM 5-class classification

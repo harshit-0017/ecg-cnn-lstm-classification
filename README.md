@@ -18,7 +18,7 @@ The model is intentionally compact (about 44.5k parameters) to make it suitable 
 
 PhysioNet/CinC Challenge 2017 (`training2017`): https://physionet.org/content/challenge-2017/1.0.0/
 
-Kaggle copy used for training: `<add your Kaggle dataset link>`
+Kaggle copy used for training: `<https://www.kaggle.com/code/harshitprajesh/lstm-af>`
 
 | Property | Value |
 |---|---|

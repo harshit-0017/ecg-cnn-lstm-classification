@@ -1,0 +1,128 @@
+{
+  "conv1": [
+    {
+      "file": "layer1_conv1_param0.hex",
+      "shape": [
+        7,
+        1,
+        16
+      ],
+      "count": 112,
+      "format": "signed Q8.8, 16-bit"
+    },
+    {
+      "file": "layer1_conv1_param1.hex",
+      "shape": [
+        16
+      ],
+      "count": 16,
+      "format": "signed Q8.8, 16-bit"
+    }
+  ],
+  "conv2": [
+    {
+      "file": "layer4_conv2_param0.hex",
+      "shape": [
+        5,
+        16,
+        32
+      ],
+      "count": 2560,
+      "format": "signed Q8.8, 16-bit"
+    },
+    {
+      "file": "layer4_conv2_param1.hex",
+      "shape": [
+        32
+      ],
+      "count": 32,
+      "format": "signed Q8.8, 16-bit"
+    }
+  ],
+  "conv3": [
+    {
+      "file": "layer8_conv3_param0.hex",
+      "shape": [
+        3,
+        32,
+        64
+      ],
+      "count": 6144,
+      "format": "signed Q8.8, 16-bit"
+    },
+    {
+      "file": "layer8_conv3_param1.hex",
+      "shape": [
+        64
+      ],
+      "count": 64,
+      "format": "signed Q8.8, 16-bit"
+    }
+  ],
+  "lstm": [
+    {
+      "file": "layer12_lstm_param0.hex",
+      "shape": [
+        64,
+        256
+      ],
+      "count": 16384,
+      "format": "signed Q8.8, 16-bit"
+    },
+    {
+      "file": "layer12_lstm_param1.hex",
+      "shape": [
+        64,
+        256
+      ],
+      "count": 16384,
+      "format": "signed Q8.8, 16-bit"
+    },
+    {
+      "file": "layer12_lstm_param2.hex",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "format": "signed Q8.8, 16-bit"
+    }
+  ],
+  "dense1": [
+    {
+      "file": "layer14_dense1_param0.hex",
+      "shape": [
+        64,
+        32
+      ],
+      "count": 2048,
+      "format": "signed Q8.8, 16-bit"
+    },
+    {
+      "file": "layer14_dense1_param1.hex",
+      "shape": [
+        32
+      ],
+      "count": 32,
+      "format": "signed Q8.8, 16-bit"
+    }
+  ],
+  "output": [
+    {
+      "file": "layer16_output_param0.hex",
+      "shape": [
+        32,
+        2
+      ],
+      "count": 64,
+      "format": "signed Q8.8, 16-bit"
+    },
+    {
+      "file": "layer16_output_param1.hex",
+      "shape": [
+        2
+      ],
+      "count": 2,
+      "format": "signed Q8.8, 16-bit"
+    }
+  ]
+}

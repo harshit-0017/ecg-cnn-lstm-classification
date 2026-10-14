@@ -1,0 +1,25 @@
+ecg_cnn_lstm_hw/
+├── cnn_lstm_top.v
+├── conv1d_mac.v
+├── maxpool1d.v
+├── lstm_cell.v
+├── sigmoid_lut.v
+├── tanh_lut.v
+├── dense_layer.v
+├── weight_rom.v
+├── tb_cnn_lstm.v
+└── weights/
+    ├── layer1_conv1_param0.hex
+    ├── layer1_conv1_param1.hex
+    ├── layer4_conv2_param0.hex
+    ├── layer4_conv2_param1.hex
+    ├── layer8_conv3_param0.hex
+    ├── layer8_conv3_param1.hex
+    ├── layer12_lstm_param0.hex
+    ├── layer12_lstm_param1.hex
+    ├── layer12_lstm_param2.hex
+    ├── layer14_dense1_param0.hex
+    ├── layer14_dense1_param1.hex
+    ├── layer16_output_param0.hex
+    ├── layer16_output_param1.hex
+    └── weights_meta.json
